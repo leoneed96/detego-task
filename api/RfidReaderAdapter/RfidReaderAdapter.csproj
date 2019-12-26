@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <RootNamespace>Detego_RfidReaderAdapter</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="RfidReader">
+      <HintPath>RfidReader.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
